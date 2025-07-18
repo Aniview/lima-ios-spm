@@ -26,7 +26,7 @@ let package = Package(
         .binaryTarget(
             name: "Lima",
             url: "https://github.com/Aniview/lima-ios-spm/releases/download/v\(artifactVersion)/Lima.zip",
-            checksum: "5397977d32b4f07397ab2a9c26a630ae25e80e572c830d8db8ddf709673f76fe"
+            checksum: "cf68e8a69b866976640125ce3c44f4ccb4e5c30c0c8dc830bb059ef420b04678"
         )
     ]
 )
