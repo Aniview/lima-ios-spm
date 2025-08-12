@@ -7,7 +7,7 @@ private let artifactVersion = "0.0.2"
 
 let package = Package(
     name: "Lima",
-    platforms: [.iOS(.v14)],
+    platforms: [.iOS(.v14), .tvOS(.v15)],
     products: [
         .library(
             name: "Lima",
