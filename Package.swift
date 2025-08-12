@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-private let artifactVersion = "0.0.2"
+private let artifactVersion = "0.0.4"
 
 let package = Package(
     name: "Lima",
@@ -26,7 +26,7 @@ let package = Package(
         .binaryTarget(
             name: "Lima",
             url: "https://github.com/Aniview/lima-ios-spm/releases/download/v\(artifactVersion)/Lima.zip",
-            checksum: "d52c6f70ccf35d171fca4b9542bb3faf69442efb5321e19c1f23c2ea1f75dfb5"
+            checksum: "c8a667d9da8bd7d330697d8abdfd2d98cb0ce9b8ba2dda048fb2b041051fd178"
         )
     ]
 )
